@@ -1,0 +1,28 @@
+body {
+    margin: 0 px;
+    padding: 0 px;
+    background-color: black;
+    color: grey;
+}
+
+nav{
+    background-color: grey;
+    color: white;
+}
+
+row{
+    background-color: black;
+}
+
+col{
+    background-color: black;
+}
+
+#footer{
+    text-align: center;
+    padding: 50 px;
+    margin: auto;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    width: 100%;
+}

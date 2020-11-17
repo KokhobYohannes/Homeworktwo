@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bootstrap 101 Template</title>
+  <link rel="stylesheet" href="./style.css" <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/0aa2753bb1.js" crossorigin="anonymous"></script>
+
 </head>
+<style>
+  body {
+    background-color: black;
+    color: white;
+  }  
+  footer{
+    color: white
+  }
+</style>
+
 <body>
-    
+  <!-- Start Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand mb-1 h1">Kokhob Yohannes</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="./layout.html">Homepage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Nav -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="page-header">
+          <h1 style="padding-top: 30px;">About me</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/71316188_10157644555528415_1742950281936633856_n.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=iH-4s03eoEMAX9keI7T&_nc_ht=scontent-iad3-1.xx&oh=1defea2781cd2911e5e027d1345b58e8&oe=5FD85C63
+            " style="width:400px;height:400px;" alt="Kokhob Yohannes Picture" class="img-thumbail">
+          </div>
+          <div class="col-md-9">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
+              nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
+              felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
+              non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
+              luctus enim.</p>
+
+            <p>Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
+              neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
+              dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
+              posuere sem congue a.</p>
+
+            <p>Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
+              neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
+              dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
+              posuere sem congue a.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Create Card taking up 4 Columns-->
+      <div class="col-md-4" style="padding-top: 80px;">
+        <div class="card text-white bg-dark mb-3">
+          <img src="https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+           class="card-img-top" alt="Social Media Stock Image">
+          <div class="card-body">
+            <h5 class="card-title">Connect with me:</h5>
+            <a href="https://github.com/KokhobYohannes"><i class="fab fa-github fa-3x fa-fw"></i></a>
+            <a href="https://www.linkedin.com/in/kokhob-yohannes/"><i class="fab fa-linkedin-in fa-3x fa-fw"></i></a>
+            <a href="https://stackexchange.com/users/19658542/user14390584"><i class="fab fa-stack-overflow fa-3x fa-fw"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
+<div class="col-md">
+  <footer id="footer">
+    <p>Kokhob Yohannes © 2020 </p>
+  </footer>
+</div>
+
 </html>
