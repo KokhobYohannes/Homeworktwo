@@ -7,7 +7,7 @@ Please note that the contact page is non-functional at this point. Meaning that 
 Goal: To create a responsive three page website using Bootstrap with a navbar and functional links.
 
 
-Screenshots of website pages: Index.Html, Portfolio.Html, and Contact.Html
+Screenshots of website pages available in assets folder: Index.Html (400-aboutme.png), Portfolio.Html (402-portfolio.png) , and Contact.Html (401-contactme.png)
 
 
 Fonts used: Font Awesome
